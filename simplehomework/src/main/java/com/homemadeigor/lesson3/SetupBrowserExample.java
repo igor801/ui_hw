@@ -14,7 +14,7 @@ public class SetupBrowserExample {
         ChromeOptions options = new ChromeOptions();
                 options.addArguments("--no-sandbox");
                 options.addArguments("--disable-notifications");
-        //открыли экземпляр схромдрайвера
+        //открыли экземпляр хромдрайвера
         WebDriver driver = new ChromeDriver();
         //запускает загрузку и установку необходимого драйвера
         WebDriverManager.chromedriver().setup();
